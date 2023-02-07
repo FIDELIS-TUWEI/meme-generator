@@ -40,8 +40,6 @@ export default function Meme() {
         getMemes();
     }, []);
 
-// Download button handler
-
     return (
         <main className='container'>
             <div className='form'>
@@ -75,7 +73,7 @@ export default function Meme() {
                     <h2 className='meme--text top'>{meme.topText}</h2>
                     <h2 className='meme--text bottom'>{meme.bottomText}</h2>
 
-                    <button className='download--btn' onClick={handleDownload}>Download</button>
+                    <button className='download--btn' >Download</button>
                 </div>
             </div>
         </main>
