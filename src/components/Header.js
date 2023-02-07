@@ -6,6 +6,7 @@ export default function Header() {
             <img
                 className='header--image' 
                 src='favicon.png'
+                alt=''
             />
             <h2 className='header--title'>Meme Generator</h2>
         </header>
