@@ -8,10 +8,11 @@ export default function Meme() {
             bottomText: "",
             randomImage: "http://i.imgflip.com/1bij.jpg"
         }
-        )
+        );
 
-        const [allMemes, setAllMemes] = React.useState([]);
 // get random meme
+        const [allMemes, setAllMemes] = React.useState([]);
+
         function getMemeImage() {
             const randomNumber = Math.floor( Math.random()* allMemes.length );
             const url = allMemes[randomNumber].url;
@@ -21,6 +22,7 @@ export default function Meme() {
                 randomImage: url
             }));
         }
+
 // Event handler
         function handleChange(event) {
             const {name, value} = event.target;
