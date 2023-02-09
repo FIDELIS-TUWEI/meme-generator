@@ -16,10 +16,10 @@ RESPONSIVE IN ALL DEVICES
 
 
 LIGHT MODE:
+ ![Screenshot from 2023-02-09 11-25-43](https://user-images.githubusercontent.com/114683429/217757931-a618c502-ce2f-4924-89f8-e60cc46bacaf.png)
 
-file:///home/fidelis/Pictures/Screenshots/Screenshot%20from%202023-02-09%2011-25-43.png
 
 
 DARK MODE:
 
-file:///home/fidelis/Pictures/Screenshots/Screenshot%20from%202023-02-09%2011-26-03.png
+![Screenshot from 2023-02-09 11-26-03](https://user-images.githubusercontent.com/114683429/217757970-cb6a507a-8eb4-4d92-990a-3c3b132b86f5.png)
