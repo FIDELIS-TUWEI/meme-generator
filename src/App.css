@@ -93,14 +93,20 @@ nav.dark .toggler--slider {
   justify-content: flex-end;
 }
 
-.container {
+main {
   padding: 36px;
   color: #2B283A;
+  height: 100vh;
+}
+
+main.dark {
+  background-color: #282D35;
+  color: #fff;
 }
 
 .form {
-  display: grid;
-  grid-template: 40px 40px / 1fr 1fr;
+  display: flex;
+  flex-direction: column;
   gap: 17px;
   margin-bottom: 17px;
 }
@@ -109,15 +115,25 @@ nav.dark .toggler--slider {
   border-radius: 5px;
   border: 1px solid #D5D4D8;
   text-indent: 5px;
+  max-width: 100%;
+  padding: 10px;
 }
 
-.form--button {
+button {
   grid-column: 1 / -1;
   border-radius: 5px;
-  color: #000;
+  color: #fff;
   border: none;
   cursor: pointer;
+  background-color: #282D35;
+  padding: 10px;
+  max-width: 100%;
 }
+
+button.dark {
+  background-color: #F5F5F5;
+  color: #000;
+} 
 
 .meme {
   position: relative;
@@ -158,11 +174,4 @@ nav.dark .toggler--slider {
 
 .bottom {
   bottom: 0;
-}
-
-.download--btn {
-  border: none;
-  cursor: pointer;
-  padding: 10px;
-  max-width: 100%;
 }
