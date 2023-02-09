@@ -5,16 +5,22 @@
 }
 
 body {
-  background-color: gold;
   font-family: 'Itim', cursive;
 }
 
-.header {
+nav {
   display: flex;
   align-items: center;
+  background-color: #fff;
   height: 65px;
   color: #000;
   padding: 20px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+  z-index: 1;
+}
+
+nav.dark {
+  background-color: #21222A;
 }
 
 .header--image {
@@ -24,10 +30,72 @@ body {
 
 .header--title {
   font-size: 1.25rem; 
+  margin-right: auto;
+}
+
+.toggler {
+  display: flex;
+  align-items: center;
+}
+
+.toggler p {
+  font-size: 0.625rem;
+  font-weight: 600;
+}
+
+.toggler--slider {
+  width: 25px;
+  height: 13px;
+  background-color: #2B283A;
+  border-radius: 2rem;
+  margin-inline: 7px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  box-sizing: content-box;
+}
+
+nav.dark .toggler--slider {
+  border-color: #fff;
+  background-color: #F5F5F5;
+}
+
+.toggler--slider--circle {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 13px;
+  height: 13px;
+}
+
+nav.dark .toggler--slider--circle {
+  background-color: #000;
+}
+
+.toggler--light {
+  color: #2B283A;
+}
+
+nav.dark .toggler--light {
+  color: #918E9B;
+}
+
+.toggler--dark {
+  color: #D5D4D8;
+}
+
+nav.dark .toggler--dark {
+  color: #fff;
+}
+
+nav.dark .toggler--slider {
+  justify-content: flex-end;
 }
 
 .container {
   padding: 36px;
+  color: #2B283A;
 }
 
 .form {
